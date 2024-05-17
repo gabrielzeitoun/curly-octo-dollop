@@ -6,6 +6,10 @@ body {
     background-color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .nav-button-group {
     display: flex;
     flex-direction: row;
@@ -33,7 +37,7 @@ body {
 .circle-button {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    background-color: red; /* default placeholder */
+    background-color: black; /* default placeholder */
     height: 10rem;
     width: 10rem;
 
@@ -57,25 +61,30 @@ body {
     transition: all 0.2s;
 }
 
-.blue {
+.blue-button {
     background-color: blue;
 }
 
-.red {
+.red-button {
     background-color: red;
 }
 
-.green {
+.green-button {
     background-color: green;
 }
 
-.purple {
+.purple-button {
     background-color: purple;
 }
 
 .content-section {
     width: 100%;
     margin-bottom: 3rem;
+
+    /* may want to remove this, or customise color for each section later */
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 1rem;
 }
 
 
@@ -89,3 +98,18 @@ body {
     text-align: justify;
 }
 
+#red-section { 
+    border-color: red;
+}
+
+#purple-section { 
+    border-color: purple;
+}
+
+#blue-section { 
+    border-color: blue;
+}
+
+#green-section { 
+    border-color: green;
+}

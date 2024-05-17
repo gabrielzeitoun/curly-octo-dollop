@@ -12,35 +12,37 @@
             <h1 id="heading">Gabriel Zeitoun</h1>
             <h3 id="subheading">click on any <u><i>circle</i></u> to scroll to that section (this is best viewed on a desktop, not very mobile responsive atm!)</h3>
             <div class="nav-button-group">
-                <button class="circle-button nav-button red">
+                <button class="circle-button nav-button red-button" onclick="scrolldiv('red-section')">
                     who am i
                 </button>
-                <button class="circle-button nav-button purple">
+                <button class="circle-button nav-button purple-button" onclick="scrolldiv('purple-section')">
                     facts about me
                 </button>
-                <button class="circle-button nav-button green">
+                <button class="circle-button nav-button green-button" onclick="scrolldiv('green-section')">
                     my CS story
                 </button>
-                <button class="circle-button nav-button blue">
+                <button class="circle-button nav-button blue-button" onclick="scrolldiv('blue-section')">
                     coin tosser
                 </button>
             </div>
         </header>
-        <article class="content-section">
-            <div class="circle-button red">
+        <article class="content-section" id="red-section">
+            <div class="circle-button red-button">
                 who am i
             </div>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus sollicitudin metus nec placerat. Sed sit amet mollis tellus. Ut vestibulum nec ex eu consectetur. Morbi nec molestie neque, ut mattis eros. Donec dapibus ac quam nec commodo. Morbi ac lectus risus. Sed gravida ultricies felis, a dignissim nulla placerat non. Duis velit nulla, tristique sit amet massa sed, rutrum gravida sem. Nunc tempus auctor hendrerit. Etiam vel neque non dui posuere consequat. Ut imperdiet sodales sem tristique euismod. Nam suscipit dui nibh, nec volutpat nibh tempor sit amet. Cras urna lacus, pharetra sed neque sit amet, commodo iaculis ligula.
+            <div class="content-section-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus sollicitudin metus nec placerat. Sed sit amet mollis tellus. Ut vestibulum nec ex eu consectetur. Morbi nec molestie neque, ut mattis eros. Donec dapibus ac quam nec commodo. Morbi ac lectus risus. Sed gravida ultricies felis, a dignissim nulla placerat non. Duis velit nulla, tristique sit amet massa sed, rutrum gravida sem. Nunc tempus auctor hendrerit. Etiam vel neque non dui posuere consequat. Ut imperdiet sodales sem tristique euismod. Nam suscipit dui nibh, nec volutpat nibh tempor sit amet. Cras urna lacus, pharetra sed neque sit amet, commodo iaculis ligula.
 
-Sed maximus magna vel scelerisque egestas. Nulla bibendum viverra felis, in mattis lectus efficitur quis. Vestibulum tincidunt metus ac urna tincidunt, sit amet cursus turpis viverra. Proin quam justo, placerat quis metus in, molestie aliquet risus. Ut ut cursus magna. Vestibulum risus diam, convallis non eros ac, interdum blandit quam. Phasellus est erat, viverra sit amet bibendum non, rhoncus accumsan elit.
-            </p>
+    Sed maximus magna vel scelerisque egestas. Nulla bibendum viverra felis, in mattis lectus efficitur quis. Vestibulum tincidunt metus ac urna tincidunt, sit amet cursus turpis viverra. Proin quam justo, placerat quis metus in, molestie aliquet risus. Ut ut cursus magna. Vestibulum risus diam, convallis non eros ac, interdum blandit quam. Phasellus est erat, viverra sit amet bibendum non, rhoncus accumsan elit.
+                </p>
+            </div>
         </article>
-        <article class="content-section">
-            <div class="circle-button purple">
+        <article class="content-section" id="purple-section">
+            <div class="circle-button purple-button">
                 facts about me
             </div>
-            <div>
+            <div class="content-section-text">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus sollicitudin metus nec placerat. Sed sit amet mollis tellus. Ut vestibulum nec ex eu consectetur. Morbi nec molestie neque, ut mattis eros. Donec dapibus ac quam nec commodo. Morbi ac lectus risus. Sed gravida ultricies felis, a dignissim nulla placerat non. Duis velit nulla, tristique sit amet massa sed, rutrum gravida sem. Nunc tempus auctor hendrerit. Etiam vel neque non dui posuere consequat. Ut imperdiet sodales sem tristique euismod. Nam suscipit dui nibh, nec volutpat nibh tempor sit amet. Cras urna lacus, pharetra sed neque sit amet, commodo iaculis ligula.
 
@@ -49,7 +51,31 @@ Sed maximus magna vel scelerisque egestas. Nulla bibendum viverra felis, in matt
             </div>
            
         </article>
+        <article class="content-section" id="green-section">
+            <div class="circle-button green-button">
+                my cs story
+            </div>
+            <div class="content-section-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus sollicitudin metus nec placerat. Sed sit amet mollis tellus. Ut vestibulum nec ex eu consectetur. Morbi nec molestie neque, ut mattis eros. Donec dapibus ac quam nec commodo. Morbi ac lectus risus. Sed gravida ultricies felis, a dignissim nulla placerat non. Duis velit nulla, tristique sit amet massa sed, rutrum gravida sem. Nunc tempus auctor hendrerit. Etiam vel neque non dui posuere consequat. Ut imperdiet sodales sem tristique euismod. Nam suscipit dui nibh, nec volutpat nibh tempor sit amet. Cras urna lacus, pharetra sed neque sit amet, commodo iaculis ligula.
 
+        Sed maximus magna vel scelerisque egestas. Nulla bibendum viverra felis, in mattis lectus efficitur quis. Vestibulum tincidunt metus ac urna tincidunt, sit amet cursus turpis viverra. Proin quam justo, placerat quis metus in, molestie aliquet risus. Ut ut cursus magna. Vestibulum risus diam, convallis non eros ac, interdum blandit quam. Phasellus est erat, viverra sit amet bibendum non, rhoncus accumsan elit.
+                </p>   
+            </div>
+           
+        </article>
+        <article class="content-section" id="blue-section">
+            <div class="circle-button blue-button">
+                coin tosser
+            </div>
+            <div class="content-section-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus sollicitudin metus nec placerat. Sed sit amet mollis tellus. Ut vestibulum nec ex eu consectetur. Morbi nec molestie neque, ut mattis eros. Donec dapibus ac quam nec commodo. Morbi ac lectus risus. Sed gravida ultricies felis, a dignissim nulla placerat non. Duis velit nulla, tristique sit amet massa sed, rutrum gravida sem. Nunc tempus auctor hendrerit. Etiam vel neque non dui posuere consequat. Ut imperdiet sodales sem tristique euismod. Nam suscipit dui nibh, nec volutpat nibh tempor sit amet. Cras urna lacus, pharetra sed neque sit amet, commodo iaculis ligula.
+
+        Sed maximus magna vel scelerisque egestas. Nulla bibendum viverra felis, in mattis lectus efficitur quis. Vestibulum tincidunt metus ac urna tincidunt, sit amet cursus turpis viverra. Proin quam justo, placerat quis metus in, molestie aliquet risus. Ut ut cursus magna. Vestibulum risus diam, convallis non eros ac, interdum blandit quam. Phasellus est erat, viverra sit amet bibendum non, rhoncus accumsan elit.
+                </p>   
+            </div>
+        </article>
     </body>
     <script src="script.js" async defer></script>
 </html>
