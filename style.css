@@ -16,13 +16,16 @@ body {
     font-size: 9rem;
     text-align: center;
     margin-bottom: 0;
+    width: 100%; /* not sure if this makes a difference, adding anyway jic */
 }
 
 #subheading {
     text-align: center;
+    width: 100%;
 }
 
 .circle-button {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     background-color: red; /* default placeholder */
     height: 10rem;
