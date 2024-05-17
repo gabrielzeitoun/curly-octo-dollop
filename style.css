@@ -1,0 +1,66 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin: 0px;
+}
+
+.nav-button-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#heading {
+    font-size: 9rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#subheading {
+    text-align: center;
+}
+
+.circle-button {
+    color: white;
+    background-color: red; /* default placeholder */
+    height: 10rem;
+    width: 10rem;
+
+    /* to make text centered in div */
+    text-align: center; 
+    vertical-align: middle;
+    line-height: 10rem; /* should always match width and height */
+
+    font-size: 1rem;
+
+    /* makes the border a circle */
+    border-radius: 50%;
+    border: 0px;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+    height: 10.5rem;
+    width: 10.5rem;
+    line-height: 10.5rem;
+    transition: all 0.2s;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
