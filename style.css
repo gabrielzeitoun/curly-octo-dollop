@@ -51,6 +51,8 @@ html {
     /* makes the border a circle */
     border-radius: 50%;
     border: 0px;
+
+    transition: all 0.2s; /* makes it look smoother when you un-hover */
 }
 
 .nav-button:hover {
@@ -131,6 +133,8 @@ html {
     line-height: 3rem;
 
     font-size: 2rem;
+
+    transition: all 0.1s;
 }
 
 #topscroll-btn:hover {
