@@ -113,3 +113,29 @@ html {
 #green-section { 
     border-color: green;
 }
+
+#topscroll-btn {
+    position: fixed;
+    top: 1.25rem;
+    left: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    text-align: center; 
+    vertical-align: middle;
+    line-height: 3rem;
+
+    font-size: 2rem;
+}
+
+#topscroll-btn:hover {
+    cursor: pointer;
+    height: 2.6rem;
+    width: 2.6rem;
+    transition: all 0.1s;
+}
