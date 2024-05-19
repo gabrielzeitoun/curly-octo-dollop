@@ -1,6 +1,5 @@
 function scrolldiv(name) {
-    var elem = document.getElementById(name);
-    elem.scrollIntoView();
+    document.getElementById(name).scrollIntoView();
 }
 
 function scrolltop() {
