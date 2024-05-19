@@ -6,6 +6,11 @@ body {
     background-color: whitesmoke;
 }
 
+button {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -35,7 +40,6 @@ html {
 }
 
 .circle-button {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     background-color: black; /* default placeholder */
     height: 10rem;
@@ -56,11 +60,15 @@ html {
 }
 
 .nav-button:hover {
-    cursor: pointer;
     height: 10.5rem;
     width: 10.5rem;
     line-height: 10.5rem;
-    transition: all 0.2s;
+}
+
+.nav-button:active {
+    height: 10rem;
+    width: 10rem;
+    line-height: 10rem;
 }
 
 .blue-button {
@@ -137,8 +145,71 @@ html {
 }
 
 #topscroll-btn:hover {
-    cursor: pointer;
     height: 2.6rem;
     width: 2.6rem;
+}
+
+#topscroll-btn:active {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+#coin-tosser-container {
+    background-color: blue;
+    color: white;
+    width: 15rem;
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#coin-tosser-result-container {
+    min-width: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+#coin-tosser-result {
+    padding: 0;
+    margin: 0;
+}
+
+#coin-tosser-button {
+    border: 0px;
+    border-radius: 10px;
+    height: 3rem;
+    width: 6rem;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
     transition: all 0.1s;
+}
+
+#coin-tosser-button:hover {
+    height: 3.25rem;
+    width: 6.25rem;
+}
+
+#coin-tosser-button:active {
+    background-color: rgb(220, 220, 220);
+    height: 3rem;
+    width: 6rem;
+}
+
+#coin-tosser-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.25rem;
+    min-width: 6.25rem;
+}
+
+#coin-tosser-container p {
+    margin: 0;
 }

@@ -11,7 +11,11 @@ function toss() {
     const output_destination = document.getElementById("coin-tosser-result");
     if (rand) {
         output_destination.innerText = 'heads';
+        heads_count = document.getElementById('heads-count').innerText
+        document.getElementById('heads-count').innerText = parseInt(heads_count) + 1;
     } else {
         output_destination.innerText = 'tails';
+        tails_count = document.getElementById('tails-count').innerText
+        document.getElementById('tails-count').innerText = parseInt(tails_count) + 1;
     }
 }
