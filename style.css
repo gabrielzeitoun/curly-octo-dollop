@@ -180,7 +180,7 @@ html {
     margin: 0;
 }
 
-#coin-tosser-button {
+.coin-tosser-button {
     border: 0px;
     border-radius: 10px;
     height: 3rem;
@@ -191,18 +191,18 @@ html {
     transition: all 0.1s;
 }
 
-#coin-tosser-button:hover {
+.coin-tosser-button:hover {
     height: 3.25rem;
     width: 6.25rem;
 }
 
-#coin-tosser-button:active {
+.coin-tosser-button:active {
     background-color: rgb(220, 220, 220);
     height: 3rem;
     width: 6rem;
 }
 
-#coin-tosser-button-container {
+.coin-tosser-button-container {
     display: flex;
     align-items: center;
     justify-content: center;

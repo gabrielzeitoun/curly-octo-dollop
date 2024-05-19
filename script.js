@@ -19,3 +19,12 @@ function toss() {
         document.getElementById('tails-count').innerText = parseInt(tails_count) + 1;
     }
 }
+
+function reset() {
+    const output_destination = document.getElementById("coin-tosser-result");
+    output_destination.innerText = '^ click to start ^';
+    heads_count = document.getElementById('heads-count').innerText
+    document.getElementById('heads-count').innerText = 0;
+    tails_count = document.getElementById('tails-count').innerText
+    document.getElementById('tails-count').innerText = 0;
+}
