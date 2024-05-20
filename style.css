@@ -218,8 +218,6 @@ a:hover {
     margin: 0;
 }
 
-
-
 #green-section dt {
     color: green;
     font-weight: bold;
@@ -236,4 +234,32 @@ a:hover {
 
 #green-section a {
     color: green;
+}
+
+#purple-section ol {
+    padding-left: 0;
+    list-style-position: inside; /* places the number/dot within the padding */
+}
+
+#purple-section li {
+    color: purple;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* I placed the content of each list item inside a span 
+   so i can style the number differently, then reverse it*/
+#purple-section li span { 
+    color: black;
+    font-weight: normal;
+    font-size: 1.25rem;
+
+
+    transition: all 0.1s;
+}
+
+#purple-section li span:hover { 
+    color: purple;
+    cursor: pointer;
 }
