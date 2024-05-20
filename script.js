@@ -18,6 +18,10 @@ function toss() {
         tails_count = document.getElementById('tails-count').innerText
         document.getElementById('tails-count').innerText = parseInt(tails_count) + 1;
     }
+
+    if (parseInt(heads_count) + parseInt(tails_count) === 48) {
+        alert('ok, maybe you should slow down there');
+    }
 }
 
 function reset() {
