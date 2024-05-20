@@ -32,3 +32,17 @@ function reset() {
     tails_count = document.getElementById('tails-count').innerText
     document.getElementById('tails-count').innerText = 0;
 }
+
+function updateTime() {
+    const now = new Date();
+    const options = {
+      timeZone: 'Australia/Sydney',
+      hour12: false,
+      hour: '2-digit',
+      minute: '2-digit', 
+      second: '2-digit'
+    };
+    const timeString = now.toLocaleTimeString('en-US', options);
+    document.getElementById('clock').innerHTML = "CURRENT TIME (SYD): <b>" + timeString + '</b>';
+  }
+  setInterval(updateTime, 1000);
