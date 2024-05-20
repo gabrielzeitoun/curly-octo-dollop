@@ -17,6 +17,7 @@ html {
 
 a:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .nav-button-group {
@@ -264,11 +265,38 @@ a:hover {
     cursor: pointer;
 }
 
+#red-section h2 {
+    color: red;
+}
+
+#red-section li {
+    margin-bottom: 0.5rem;
+}
+
+#red-content-section-top {
+    display: flex;
+    align-items: center;
+}
+
+.red-section-list-header {
+    color: red;
+    font-weight: bold;
+    font-size: 1.20rem;
+}
+
 #profile-img {
     border: 5px solid red;
     border-radius: 50%;
     height: 10rem;
     width: 10rem;
     margin-right: 1rem;
-    float: left;
+}
+
+#red-section a {
+    color: black;
+    text-decoration: none;
+}
+
+#red-section a:hover {
+    color: red;
 }
