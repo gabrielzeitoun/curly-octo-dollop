@@ -213,3 +213,18 @@ html {
 #coin-tosser-container p {
     margin: 0;
 }
+
+
+
+#green-section dt {
+    color: green;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+#green-section dd {
+    display: list-item;
+    list-style-type: disc;
+}
