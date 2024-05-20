@@ -43,6 +43,6 @@ function updateTime() {
       second: '2-digit'
     };
     const timeString = now.toLocaleTimeString('en-US', options);
-    document.getElementById('clock').innerHTML = "CURRENT TIME (SYD): <b>" + timeString + '</b>';
+    document.getElementById('clock').innerText = "CURRENT TIME (SYD): " + timeString;
   }
   setInterval(updateTime, 1000);
