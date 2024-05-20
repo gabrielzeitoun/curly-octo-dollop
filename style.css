@@ -263,3 +263,12 @@ a:hover {
     color: purple;
     cursor: pointer;
 }
+
+#profile-img {
+    border: 5px solid red;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    margin-right: 1rem;
+    float: left;
+}
