@@ -292,11 +292,15 @@ a:hover {
     margin-right: 1rem;
 }
 
-#red-section a {
+.red-visible-link {
+    color: red;
+}
+
+.red-subtle-link {
     color: black;
     text-decoration: none;
 }
 
-#red-section a:hover {
+.red-subtle-link:hover {
     color: red;
 }
