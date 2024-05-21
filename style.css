@@ -207,6 +207,11 @@ a:hover {
     width: 6rem;
 }
 
+#blue-section p {
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
 .coin-tosser-button-container {
     display: flex;
     align-items: center;
